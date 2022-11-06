@@ -1,0 +1,32 @@
+body {
+    font-size: 14px;
+    position: relative;
+    width: 1903px;
+    height: 937px;
+    background: #036635;
+    height: 4885px;
+    height: 80%;
+}
+.rec {
+    position: absolute;
+width: 500px;
+height: 500px;
+left: 952px;
+top: 161px;
+
+background: #D9D9D9;
+border-radius: 35px;
+}
+.sm2 {
+    position: absolute;
+width: 244px;
+height: 33px;
+left: 135px;
+top: 256px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}

@@ -1,32 +1,297 @@
 body {
-    font-size: 14px;
-    position: relative;
+    background: #036635;
     width: 1903px;
     height: 937px;
-    background: #036635;
-    height: 4885px;
-    height: 80%;
+    font-family: 'Inika';
+    font-style: normal;
 }
-.rec {
-    position: absolute;
-width: 500px;
-height: 500px;
-left: 952px;
-top: 161px;
+.headline{
 
-background: #D9D9D9;
-border-radius: 35px;
+    position: absolute;
+    width: 560px;
+    height: 61px;
+    left: 685px;
+    top: 28px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 32px;
+    /* or 50% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E6E1E5;
 }
-.sm {
+.subhead{
     position: absolute;
-width: 244px;
-height: 33px;
-left: 135px;
-top: 256px;
+    left: 760px;
+    right: 760px;
+    top: 115px;
+    bottom: 802px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+    
+    color: #CAC4D0;
+    
+    mix-blend-mode: normal;
+}
+.rec{
+    position: absolute;
+    width: 669px;
+    height: 669px;
+    left: 1154px;
+    top: 197px;
+    
+    background: #D9D9D9;
+    border-radius: 35px;
+}
+.espr{   
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    left: 240px;
+    top: 311px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.espr1oz{
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 481px;
+    top: 311px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.espr2oz{
+    position: absolute;
+    width: 244px;
+    height: 30px;
+    left: 721px;
+    top: 308px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+.steamedMilk{
+    position: absolute;
+    width: 221px;
+    height: 50px;
+    left: 240px;
+    top: 390px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.whippedCream{
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 481px;
+    top: 390px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+.stMilk1oz{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    left: 721px;
+    top: 390px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+}
+.cream{
+    position: absolute;
+    width: 221px;
+    height: 30px;
+    left: 240px;
+    top: 468px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.ice{
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 481px;
+    top: 468px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.iceCream{
+    position: absolute;
+    width: 221px;
+    height: 30px;
+    left: 721px;
+    top: 468px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.sugar{
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    left: 240px;
+    top: 547px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.coldWater{
+    position: absolute;
+    width: 220px;
+    height: 31px;
+    left: 481px;
+    top: 547px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.hotWater{
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    left: 721px;
+    top: 547px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.carPat{
+
+    position: absolute;
+    width: 220px;
+    height: 51px;
+    left: 241px;
+    top: 625px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.shortPE{
+    position: absolute;
+    width: 219px;
+    height: 51px;
+    left: 482px;
+    top: 625px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.longPE{
+    position: absolute;
+    width: 219px;
+    height: 51px;
+    left: 723px;
+    top: 625px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.whiskey{
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    left: 240px;
+    top: 726px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.chocolate{
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 481px;
+    top: 726px;    
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    
+}
+.milk{
+    position: absolute;
+    width: 219px;
+    height: 30px;
+    left: 723px;
+    top: 726px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    
 }

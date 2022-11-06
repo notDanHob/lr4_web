@@ -1,7 +1,6 @@
 document.querySelector('.find').addEventListener('click', () => {
-    // alert('loh');
-    let data = document.querySelector('.sm2').value;
-    alert(data);
-    alert();
-    document.querySelector('.out').innerHTML = data;
+    let elem = document.querySelector("#sm");
+    alert(elem.checked)
+    let c = document.querySelector("#check");
+    alert(c.checked)       
 });

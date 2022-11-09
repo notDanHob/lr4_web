@@ -9,84 +9,100 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <script src="script.js" defer></script>
+
 </head>
   <body>
-<div class="headline">What's the coffee?</div>
+    <div class="headline">What's the coffee?</div>
     <div class="subhead">We mix the ingredients and get a drink</div>
     <div class="rec"></div>
-<div class="buttons">
-    <div class="espr">
-        <input type="checkbox" id="espr" value="Espresso">
-        <label for="espr">Espresso</label>
+    <img class="html_image" id = "image" src ="" alt="photo"> <!-- поле для изображения -->
+    <p class="description" id="description"></p> <!-- поля для вывода -->
+    <!-- Сделайте плиз им нормальное положение в сss, если уж сильно хочется, то можно и подвигать все остальное -->
+    <script>
+        let standart_source = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Стакан.jpg/200px-Стакан.jpg";
+        document.getElementById("image").src = standart_source;
+        document.getElementById("description").innerHTML = "No monney for coffee"
+    </script>
+<!-- нужно подбить чекбоксы под ингредиенты, чтобы все vallue внутри класса каждого чекбокса совпадали -->
+<!-- уберете лишние или новые добавите, хз. это не должно повлиять на функционал, главное разделы со скриптами не меняйте -->
+    <div class="checkboxes" id="checkboxes">
+        <div class="espr">
+            <input type="checkbox" id="espr" value="Espresso">
+            <label for="espr">Espresso</label>
+        </div>
+        <div class="espr1oz">
+            <input type="checkbox" id="espr1oz" value="1oz Espresso">
+            <label for="espr1oz">1 oz Espresso</label>
+        </div>
+        <div class="espr2oz">
+            <input type="checkbox" id="espr2oz" value="2oz Espresso">
+            <label for="espr2oz">2 oz Espresso</label>
+        </div>
+        <div class="steamedMilk">
+            <input type="checkbox" id="steamedMilk" value="Steamed Milk">
+            <label for="steamedMilk">Steamed milk</label>
+        </div>
+        <div class="whippedCream">
+            <input type="checkbox" id="whippedCream" value="Whipped cream">
+            <label for="whippedCream">Whipped cream</label>
+        </div>
+        <div class="stMilk1oz">
+            <input type="checkbox" id="stMilk1oz" value="1 oz Steamed Milk">
+            <label for="stMilk1oz">1 oz Steamed milk</label>
+        </div>
+        <div class="cream">
+            <input type="checkbox" id="cream" value="Cream">
+            <label for="cream">Cream</label>
+        </div>
+        <div class="ice">
+            <input type="checkbox" id="ice" value="Ice">
+            <label for="ice">Ice</label>
+        </div>
+        <div class="iceCream">
+            <input type="checkbox" id="iceCream" value="Ice cream">
+            <label for="iceCream">Ice cream</label>
+        </div>
+        <div class="sugar">
+            <input type="checkbox" id="sugar" value="Sugar">
+            <label for="sugar">Sugar</label>
+        </div>  
+        <div class="coldWater">
+            <input type="checkbox" id="coldWater" value="Cold water">
+            <label for="coldWater">Cold water</label>
+        </div>  
+        <div class="hotWater">
+            <input type="checkbox" id="hotWater" value="Hot Water">
+            <label for="hotWater">Hot water</label>
+        </div>
+        <div class="carPat">
+            <input type="checkbox" id="carPat" value="Caramel pattern">
+            <label  for="carPat">Caramel pattern</label>
+        </div>
+        <div class="shortPE">
+            <input type="checkbox" id="shortPE" value="Short pulled espresso">
+            <label for="shortPE">Short pulled &nbsp&nbsp&nbsp&nbspespresso</label>
+        </div>
+        <div class="longPE">
+            <input type="checkbox" id="longPE" value="Long pulled espresso">
+            <label for="longPE">Long pulled &nbsp&nbsp&nbsp&nbspespresso</label>
+        </div>
+        <div class="whiskey">
+            <input type="checkbox" id="whiskey" value="Whiskey">
+            <label for="whiskey">Whiskey</label>
+        </div>
+        <div class="chocolate">
+            <input type="checkbox" id="chocolate" value="Chocolate">
+            <label for="chocolate">Chocolate</label>
+        </div>
+        <div class="milk">
+            <input type="checkbox" id="milk" value="Milk">
+            <label for="milk">Milk</label>
+        </div>
     </div>
-    <div class="espr1oz">
-        <input type="checkbox" id="espr1oz" value="1 oz Espresso">
-        <label for="espr1oz">1 oz Espresso</label>
-    </div>
-    <div class="espr2oz">
-        <input type="checkbox" id="espr2oz" value="2 oz Espresso">
-        <label for="espr2oz">2 oz Espresso</label>
-    </div>
-    <div class="steamedMilk">
-        <input type="checkbox" id="steamedMilk" value="Steamed milk">
-        <label for="steamedMilk">Steamed milk</label>
-    </div>
-    <div class="whippedCream">
-        <input type="checkbox" id="whippedCream" value="Whipped cream">
-        <label for="whippedCream">Whipped cream</label>
-    </div>
-    <div class="stMilk1oz">
-        <input type="checkbox" id="stMilk1oz" value="1 oz Steamed milk">
-        <label for="stMilk1oz">1 oz Steamed milk</label>
-    </div>
-    <div class="cream">
-        <input type="checkbox" id="cream" value="Cream">
-        <label for="cream">Cream</label>
-    </div>
-    <div class="ice">
-        <input type="checkbox" id="ice" value="Ice">
-        <label for="ice">Ice</label>
-    </div>
-    <div class="iceCream">
-        <input type="checkbox" id="iceCream" value="Ice cream">
-        <label for="iceCream">Ice cream</label>
-    </div>
-    <div class="sugar">
-        <input type="checkbox" id="sugar" value="Sugar">
-        <label for="sugar">Sugar</label>
-    </div>  
-    <div class="coldWater">
-        <input type="checkbox" id="coldWater" value="Cold water">
-        <label for="coldWater">Cold water</label>
-    </div>  
-    <div class="hotWater">
-        <input type="checkbox" id="hotWater" value="Hot water">
-        <label for="hotWater">Hot water</label>
-    </div>
-    <div class="carPat">
-        <input type="checkbox" id="carPat" value="Caramel pattern">
-        <label  for="carPat">Caramel pattern</label>
-    </div>
-    <div class="shortPE">
-        <input type="checkbox" id="shortPE" value="Short pulled espresso">
-        <label for="shortPE">Short pulled &nbsp&nbsp&nbsp&nbspespresso</label>
-    </div>
-    <div class="longPE">
-        <input type="checkbox" id="longPE" value="Long pulled espresso">
-        <label for="longPE">Long pulled &nbsp&nbsp&nbsp&nbspespresso</label>
-    </div>
-    <div class="whiskey">
-        <input type="checkbox" id="whiskey" value="Whiskey">
-        <label for="whiskey">Whiskey</label>
-    </div>
-    <div class="chocolate">
-        <input type="checkbox" id="chocolate" value="Chocolate">
-        <label for="chocolate">Chocolate</label>
-    </div>
-    <div class="milk">
-        <input type="checkbox" id="milk" value="Milk">
-        <label for="milk">Milk</label>
-    </div>
-</div>
+    <script>
+        checkboxes.onchange = function(event){
+            document.getElementById('image').src = main_html.putCheckBoxesResults(coffee_list);
+        }
+    </script>
   </body>
 </html>

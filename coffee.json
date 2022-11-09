@@ -1,39 +1,4 @@
-class Coffee {
-  getCheckedCheckBoxes() {
-    var checkboxes = document.getElementsByTagName("input");
-    var checkboxesChecked = [];
-    for (var index = 0; index < checkboxes.length; index++) {
-      if (checkboxes[index].checked) {
-        checkboxesChecked.push(checkboxes[index].value); // положим в массив выбранный
-        //console.log(checkboxes[index].value);
-      }
-    }
-    console.log('BEEEEEEEEEEEEEGINNING')
-    console.log(checkboxesChecked);
-    console.log('eeeeeeeeend');
-    return checkboxesChecked;
-  }
-  putCheckBoxesResults(my_coffee_list) {
-    let results = this.getCheckedCheckBoxes().sort();
-    let result_length = results.length;
-    if (result_length == 0) {
-      document.getElementById("description").innerHTML = "No monney for coffee";
-      return "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Стакан.jpg/200px-Стакан.jpg";
-    }
-    for (let i = 0; i < my_coffee_list.length; i++){
-      if (my_coffee_list[i]['ingredients'].length == result_length) {
-        if (JSON.stringify(results) === JSON.stringify(my_coffee_list[i]['ingredients'].sort())) {
-          document.getElementById("description").innerHTML = my_coffee_list[i]['description'];
-          return my_coffee_list[i]['image'];
-        }
-      }
-    }
-    document.getElementById("description").innerHTML = "Drink some shit";
-    return "https://memepedia.ru/wp-content/uploads/2018/09/papey-gavna-original.jpg";
-  }
-}
-
-let coffee_list = [
+[
   {
     "title": "Latte",
     "description": "As the most popular coffee drink out there, the latte is comprised of a shot of espresso and Steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.",
@@ -222,5 +187,3 @@ let coffee_list = [
 }
 
 ]
-console.log(coffee_list)
-let main_html = new Coffee(coffee_list);

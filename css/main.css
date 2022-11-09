@@ -62,13 +62,20 @@ body {
     background: #D9D9D9;
     border-radius: 35px;
 }
-/* .buttons{
-    -webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-} */
+.description{
+    position: absolute;
+    width: 669px;
+    height: 669px;
+    left: 1154px;
+    top: 500px;
+}
+.html_image{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1154px;
+    top: 197px;
+}
 .espr{   
     position: absolute;
     width: 221px;
@@ -241,7 +248,7 @@ body {
 }
 .shortPE{
     position: absolute;
-    width: 219px;
+    width: 225px;
     height: 51px;
     left: 482px;
     top: 625px;

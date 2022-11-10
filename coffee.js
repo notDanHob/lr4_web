@@ -6,7 +6,7 @@ export let coffee_list = [
         "2oz Espresso",
         "Steamed Milk"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg/509px-Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg",
+        "image": "https://globalassets.starbucks.com/assets/b635f407bbcd49e7b8dd9119ce33f76e.jpg?impolicy=1by1_wide_topcrop_630",
       "id": 1
     },
     {
@@ -17,7 +17,7 @@ export let coffee_list = [
         "Steamed Milk",
         "Foam"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg",
+        "image": "https://globalassets.starbucks.com/assets/5c515339667943ce84dc56effdf5fc1b.jpg?impolicy=1by1_wide_topcrop_630",
       "id": 2
     },
     {
@@ -27,7 +27,7 @@ export let coffee_list = [
         "1oz Espresso",
         "Hot Water"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/1280px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg",
+        "image": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_wide_topcrop_630",
       "id": 3
     },
     {
@@ -36,7 +36,7 @@ export let coffee_list = [
       "ingredients": [
         "1oz Espresso"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg",
+        "image": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_topcrop_630",
       "id": 4
     },
     {
@@ -84,7 +84,7 @@ export let coffee_list = [
         "1oz Espresso",
         "Foam"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Caff%C3%A8_Espresso_Macchiato_Schiumato.jpg",
+        "image": "https://globalassets.starbucks.com/assets/26495f2a8b644fe8960dd74e1891b7b7.jpg?impolicy=1by1_wide_topcrop_630",
       "id": 9
     },
     {
@@ -95,7 +95,7 @@ export let coffee_list = [
         "Steamed milk",
         "Chocolate"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Mocaccino-Coffee.jpg",
+        "image": "https://globalassets.starbucks.com/assets/915736da018842e788147f7eab73db73.jpg?impolicy=1by1_wide_topcrop_630",
       "id": 10
     },
     {
@@ -136,7 +136,7 @@ export let coffee_list = [
       "1oz Espresso",
       "Whipped Cream"
     ],
-    "image": "https://globalassets.starbucks.com/assets/e9330b18ae524e69bdcbe97460d6f5bb.jpg?impolicy=1by1_wide_topcrop_630",
+      "image": "https://globalassets.starbucks.com/assets/e9330b18ae524e69bdcbe97460d6f5bb.jpg?impolicy=1by1_wide_topcrop_630",
     "id": 15
   },
   {

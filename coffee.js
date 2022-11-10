@@ -45,7 +45,7 @@ export let coffee_list = [
       "ingredients": [
         "2oz Espresso",
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doppio.jpg/2560px-Doppio.jpg",
+        "image": "https://psv4.userapi.com/c237231/u98411440/docs/d5/c9845cd50213/Doppio.jpg?extra=oxBz5GF-D7KH4Sbuje7Tu0Ha2_uh0yDbhZLJDBjgIGbtdxKmfJ441aGmzhsyFzquMWJRPCYJ9IUIuhXJy_jISHe8TvPAM3BX1YpftgiGFun3xIrcHnkLzyZq48Bzcs2lldmP-lg73yhod3mM1NLIrQ",
       "id": 5
     },
     {
@@ -55,7 +55,7 @@ export let coffee_list = [
         "1oz Espresso",
         "Milk"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Caf%C3%A9Cortado%28Tallat%29.jpg",
+        "image": "https://psv4.userapi.com/c237031/u98411440/docs/d23/12fd25e17dcf/Cortado.jpg?extra=4F4kvZMqIW4PykwS0Ze9_thr6H-0AM5oRAt4oWX4qQ-eZRLucScHkWlQnIvXIuxLEDH2CSZNJ5lTV6YQt2O9M4O_XDJ8lkrBkaeJen04DNEqB1d_t4E3kTnzY9sT0ex2XGh27rsMXFCjRM2ENGKhTA",
       "id": 6
     },
     {
@@ -65,7 +65,7 @@ export let coffee_list = [
         "1oz Espresso",
         "Steamed Milk"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gal%C3%A3o.jpg/1280px-Gal%C3%A3o.jpg",
+        "image": "https://psv4.userapi.com/c237231/u98411440/docs/d43/1311b357ff6f/gal_227_o.jpg?extra=gHidwURDQXrmpCPkcnaeKRgHwPcs4KNSCB0PM3rdbDR7FmyKDohDVUz7MsDCTPc_XZr9DJ-mWLZKyRoWOlvjJ1rV12jpq7wBZ5mwzRyb4DIyNUTTdZIlxPKNhNhy8JzysHcFGQy3IbmwAf7OHkIfYQ",
       "id": 7
     },
     {
@@ -74,7 +74,7 @@ export let coffee_list = [
       "ingredients": [
         "Long pulled espresso"
       ],
-       "image": "https://psv4.userapi.com/c237231/u98411440/docs/d43/796c4435c3d7/Espesso_Lungo.jpg?extra=wQWn9e-LCH-ECHm7hu_THXxVb-I9iwGGK3ABP7Z5HwjLqnIg4tmmhlBexTxdkxCeN7tfnuoDu4g_di6yGYkmR5OtPg1aSgybliYrUY1pbR32KlezeRVaDsgInYnrZByuygCI0v3EViaxCsr3OtZ8rA",
+        "image": "https://psv4.userapi.com/c237231/u98411440/docs/d43/796c4435c3d7/Espesso_Lungo.jpg?extra=wQWn9e-LCH-ECHm7hu_THXxVb-I9iwGGK3ABP7Z5HwjLqnIg4tmmhlBexTxdkxCeN7tfnuoDu4g_di6yGYkmR5OtPg1aSgybliYrUY1pbR32KlezeRVaDsgInYnrZByuygCI0v3EViaxCsr3OtZ8rA",
       "id": 8
     },
     {
@@ -104,7 +104,7 @@ export let coffee_list = [
       "ingredients": [
         "Short pulled espresso"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Doppio_ristretto_Chiang_Mai.jpg",
+        "image": "https://psv4.userapi.com/c236331/u98411440/docs/d54/c71e498597b9/Ristretto.jpg?extra=TOOTodsZvdJLmaJX082RanQ1LKzPz8BI-87lbhaNda5pQmHyoqXKoYOfOp3gtYyWuWhxszTD_64cTbyK_pDDlqKo5L93H7hylO5QNs7ndOclOioNWdjni2pdW-gEIaI3tB7BHFPREe716lA3QGFoWA",
       "id": 11
     },
     {

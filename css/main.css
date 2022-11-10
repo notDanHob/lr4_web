@@ -245,17 +245,15 @@ body {
     
     color: #FFFFFF;
 }
-.hotWater{
+.hotWater {
     position: absolute;
     width: 221px;
     height: 24px;
-    left: 721px;
-    top: 547px;
-    
+    left: 482px;
+    top: 625px;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    
     color: #FFFFFF;
 }
 .carPat{
@@ -272,22 +270,23 @@ body {
     
     color: #FFFFFF;
 }
-.shortPE{
+.shortPE {
     position: absolute;
-    width: 225px;
-    height: 51px;
-    left: 482px;
-    top: 625px;
+    width: 280px;
+    height: 56px;
+   
+    left: 721px;
+    top: 547px;
+   
 
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    
     color: #FFFFFF;
 }
 .longPE{
     position: absolute;
-    width: 225px;
+    width: 280px;
     height: 51px;
     left: 723px;
     top: 625px;
@@ -339,3 +338,4 @@ body {
     color: #FFFFFF;
     
 }
+

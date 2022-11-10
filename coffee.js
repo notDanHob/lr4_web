@@ -74,7 +74,7 @@ export let coffee_list = [
       "ingredients": [
         "Long pulled espresso"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Caff%C3%A8_lungo.JPG",
+       "image": "https://psv4.userapi.com/c237231/u98411440/docs/d43/796c4435c3d7/Espesso_Lungo.jpg?extra=wQWn9e-LCH-ECHm7hu_THXxVb-I9iwGGK3ABP7Z5HwjLqnIg4tmmhlBexTxdkxCeN7tfnuoDu4g_di6yGYkmR5OtPg1aSgybliYrUY1pbR32KlezeRVaDsgInYnrZByuygCI0v3EViaxCsr3OtZ8rA",
       "id": 8
     },
     {

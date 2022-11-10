@@ -73,10 +73,12 @@ body {
     border-radius: 35px;
 }
 .description{
+    width: 650px;
+    height: 100px;
     position: absolute;
     left: 1164px;
     right: 1833px;
-    top: 935px;
+    top: 910px;
     bottom: 1035px;
     
     font-family: 'Inika';
@@ -85,13 +87,11 @@ body {
     font-size: 20px;
     line-height: 20px;
     
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.25px;
     
     color: #000000;
-    
     mix-blend-mode: normal;
 }
 .html_image{

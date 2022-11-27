@@ -43,4 +43,4 @@ class Coffee {
 export let main_html = new Coffee();
 main_html.setClassCoffeeList(coffee_list);
 document.getElementById('image').src = "https://psv4.userapi.com/c534536/u98411440/docs/d5/b6cb5752cd90/No_Money.jpg?extra=Cbn9aYv5gCjQWnu4Wyj8dRDrdBVcyrqbAXWOWqmI-FBsXqPNyfyHghYhNSwZMXpF6snqijmtQ2l7SHD5GBcRYWInPdpbJ2I6aCmRJEBv3Enwi5a8kKN_D7q-ynBED2t8F7ubpTb9iYzlYDCFfZcD9Q";
-document.getElementById("description").innerHTML = "No monney for coffee";
+document.getElementById("description").innerHTML = "No money for coffee";

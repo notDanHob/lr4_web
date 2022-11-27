@@ -92,7 +92,7 @@ export let coffee_list = [
       "description": "For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have). The mocha is a chocolate espresso drink with Steamed milk and foam.",
       "ingredients": [
         "1oz Espresso",
-        "Steamed milk",
+        "Steamed Milk",
         "Chocolate"
       ],
         "image": "https://globalassets.starbucks.com/assets/915736da018842e788147f7eab73db73.jpg?impolicy=1by1_wide_topcrop_630",

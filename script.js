@@ -24,7 +24,7 @@ class Coffee {
    
     if (result_length == 0) {
       document.getElementById("description").innerHTML = "No money for coffee";
-      return "https://psv4.userapi.com/c534536/u98411440/docs/d5/b6cb5752cd90/No_Money.jpg?extra=Cbn9aYv5gCjQWnu4Wyj8dRDrdBVcyrqbAXWOWqmI-FBsXqPNyfyHghYhNSwZMXpF6snqijmtQ2l7SHD5GBcRYWInPdpbJ2I6aCmRJEBv3Enwi5a8kKN_D7q-ynBED2t8F7ubpTb9iYzlYDCFfZcD9Q";
+      return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_DF85y69g9P7dou7G6AMQVYbZOMS75WDxqixVcFqZGJjo3TtNXDKheM6vUmHguKsQipc&usqp=CAU";
     }
 
     for (let i = 0; i < this.my_coffee_list.length; i++){
@@ -42,5 +42,5 @@ class Coffee {
 
 export let main_html = new Coffee();
 main_html.setClassCoffeeList(coffee_list);
-document.getElementById('image').src = "https://psv4.userapi.com/c534536/u98411440/docs/d5/b6cb5752cd90/No_Money.jpg?extra=Cbn9aYv5gCjQWnu4Wyj8dRDrdBVcyrqbAXWOWqmI-FBsXqPNyfyHghYhNSwZMXpF6snqijmtQ2l7SHD5GBcRYWInPdpbJ2I6aCmRJEBv3Enwi5a8kKN_D7q-ynBED2t8F7ubpTb9iYzlYDCFfZcD9Q";
+document.getElementById('image').src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_DF85y69g9P7dou7G6AMQVYbZOMS75WDxqixVcFqZGJjo3TtNXDKheM6vUmHguKsQipc&usqp=CAU";
 document.getElementById("description").innerHTML = "No money for coffee";

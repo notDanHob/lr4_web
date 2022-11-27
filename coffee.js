@@ -144,7 +144,7 @@ export let coffee_list = [
     "description": "Sweet delicate drink, decorated with delicate foam and caramel pattern. Due to the fact that aerated coffee is poured first, and then shots of espresso, the taste of coffee is revealed more fully.",
     "ingredients": [
       "1oz Espresso",
-      "Steamed milk",
+      "Steamed Milk",
       "Caramel Pattern"
     ],
     "image": "https://globalassets.starbucks.com/assets/58db701349cb48738069e8c912e2b3ac.jpg?impolicy=1by1_wide_topcrop_630",
